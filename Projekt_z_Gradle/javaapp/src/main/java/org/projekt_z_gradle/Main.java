@@ -1,9 +1,11 @@
 package org.projekt_z_gradle;
 
+import lombok.extern.java.Log;
+
 /**
  * Created by Adam Seweryn
  */
-
+@Log
 public class Main {
 
     public static void main(String[] args) {
@@ -19,6 +21,8 @@ public class Main {
                 .build();
 
         System.out.println(exampleModelDuplicate);
+
+        log.info("Huston, mamy problem!");
         System.out.println(exampleModel.equals(exampleModelDuplicate));
     }
 }

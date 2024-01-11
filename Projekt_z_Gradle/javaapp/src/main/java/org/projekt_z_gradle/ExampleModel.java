@@ -1,9 +1,6 @@
 package org.projekt_z_gradle;
 
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 /**
  * Created by Adam Seweryn
@@ -12,6 +9,8 @@ import lombok.ToString;
 @Getter
 @ToString
 @EqualsAndHashCode
+@AllArgsConstructor
+@NoArgsConstructor
 public class ExampleModel {
 private String hairColor;
 private int hight;

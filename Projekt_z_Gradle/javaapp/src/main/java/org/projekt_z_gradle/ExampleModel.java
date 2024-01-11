@@ -6,14 +6,12 @@ import lombok.Setter;
 /**
  * Created by Adam Seweryn
  */
+@Setter
+@Getter
 public class ExampleModel {
-@Getter @Setter
-    private String hairColor;
-@Getter @Setter
-    private int hight;
-@Getter @Setter
-    private int width;
-@Getter @Setter
-    private boolean isMale;
+private String hairColor;
+private int hight;
+private int width;
+private boolean isMale;
 
 }

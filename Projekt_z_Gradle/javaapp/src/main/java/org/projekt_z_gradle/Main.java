@@ -10,11 +10,14 @@ public class Main {
         ExampleModel exampleModel = new ExampleModel("Blond", 185, 0, true, 29);
 
         System.out.println(exampleModel);
-        ExampleModel exampleModelDuplicate = new ExampleModel();
-        exampleModelDuplicate.setHairColor("Blond");
-        exampleModelDuplicate.setHight(185);
-        exampleModelDuplicate.setMale(true);
-        exampleModelDuplicate.setAge(29);
+
+        ExampleModel exampleModelDuplicate = ExampleModel.builder()
+                .age(29)
+                .hairColor("Blond")
+                .height(185)
+                .isMale(true)
+                .build();
+
         System.out.println(exampleModelDuplicate);
         System.out.println(exampleModel.equals(exampleModelDuplicate));
     }

@@ -1,5 +1,6 @@
 package org.projekt_z_gradle;
 
+import com.google.gson.Gson;
 import lombok.extern.java.Log;
 
 /**
@@ -24,5 +25,7 @@ public class Main {
 
         log.info("Huston, mamy problem!");
         System.out.println(exampleModel.equals(exampleModelDuplicate));
+
+        new Gson();
     }
 }

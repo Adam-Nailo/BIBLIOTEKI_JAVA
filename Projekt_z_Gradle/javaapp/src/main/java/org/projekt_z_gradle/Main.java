@@ -3,8 +3,6 @@ package org.projekt_z_gradle;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import lombok.extern.java.Log;
-
-import java.sql.Array;
 import java.util.Arrays;
 import java.util.List;
 

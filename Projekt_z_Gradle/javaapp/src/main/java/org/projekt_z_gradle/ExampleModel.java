@@ -2,6 +2,8 @@ package org.projekt_z_gradle;
 
 import lombok.*;
 
+import java.util.List;
+
 /**
  * Created by Adam Seweryn
  */
@@ -13,5 +15,5 @@ private int height;
 private int width;
 private boolean isMale;
 private int age;
-private Cloth cloth;
+private List<Cloth> cloth;
 }

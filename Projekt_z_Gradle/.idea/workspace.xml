@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0bbe236-bf0d-4524-9347-287918146644" name="Changes" comment="GSON">
+    <list default="true" id="a0bbe236-bf0d-4524-9347-287918146644" name="Changes" comment="GSON - zastosowanie">
+      <change afterPath="$PROJECT_DIR$/javaapp/src/main/java/org/projekt_z_gradle/Cloth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaapp/src/main/java/org/projekt_z_gradle/ExampleModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaapp/src/main/java/org/projekt_z_gradle/ExampleModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javaapp/src/main/java/org/projekt_z_gradle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaapp/src/main/java/org/projekt_z_gradle/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +67,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Gradle.Projekt_z_Gradle:javaapp [:javaapp:Main.main()].executor": "Debug",
+    "Gradle.Projekt_z_Gradle:javaapp [:javaapp:Main.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -76,8 +78,18 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JSON"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.projekt_z_gradle" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.projekt_z_gradle.Main" />
@@ -210,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705083508341</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="GSON - zastosowanie">
+      <option name="closed" value="true" />
+      <created>1705085450958</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705085450958</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -224,17 +244,7 @@
     <MESSAGE value="@Data" />
     <MESSAGE value="@Log" />
     <MESSAGE value="GSON" />
-    <option name="LAST_COMMIT_MESSAGE" value="GSON" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/javaapp/src/main/java/org/projekt_z_gradle/Main.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="GSON - zastosowanie" />
+    <option name="LAST_COMMIT_MESSAGE" value="GSON - zastosowanie" />
   </component>
 </project>

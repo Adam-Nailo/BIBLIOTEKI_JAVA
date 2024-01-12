@@ -13,4 +13,5 @@ private int height;
 private int width;
 private boolean isMale;
 private int age;
+private Cloth cloth;
 }

@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0bbe236-bf0d-4524-9347-287918146644" name="Changes" comment="Zagnieżdżone Jsony">
+    <list default="true" id="a0bbe236-bf0d-4524-9347-287918146644" name="Changes" comment="Tablice w Json'ach">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaapp/src/main/java/org/projekt_z_gradle/ExampleModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaapp/src/main/java/org/projekt_z_gradle/ExampleModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaapp/src/main/java/org/projekt_z_gradle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaapp/src/main/java/org/projekt_z_gradle/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +235,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705087613192</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Tablice w Json'ach">
+      <option name="closed" value="true" />
+      <created>1705092220262</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1705092220262</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Tablice w Json'ach">
+      <option name="closed" value="true" />
+      <created>1705092298641</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1705092298641</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -253,6 +267,7 @@
     <MESSAGE value="GSON" />
     <MESSAGE value="GSON - zastosowanie" />
     <MESSAGE value="Zagnieżdżone Jsony" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zagnieżdżone Jsony" />
+    <MESSAGE value="Tablice w Json'ach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tablice w Json'ach" />
   </component>
 </project>

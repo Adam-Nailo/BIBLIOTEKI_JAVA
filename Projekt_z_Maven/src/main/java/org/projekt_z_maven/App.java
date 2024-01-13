@@ -2,6 +2,7 @@ package org.projekt_z_maven;
 
 import com.google.gson.Gson;
 import lombok.AllArgsConstructor;
+import org.simpleframework.xml.Serializer;
 
 /**
  * Hello world!
@@ -14,5 +15,6 @@ public class App
     {
         System.out.println( "Hello World!" );
         new Gson();
+//        new Serializer();
     }
 }

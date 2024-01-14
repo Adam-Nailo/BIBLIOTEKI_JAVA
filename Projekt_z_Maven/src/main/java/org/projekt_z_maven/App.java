@@ -2,7 +2,8 @@ package org.projekt_z_maven;
 
 import com.google.gson.Gson;
 import lombok.AllArgsConstructor;
-import org.simpleframework.xml.Serializer;
+import okhttp3.OkHttpClient;
+
 
 /**
  * Hello world!
@@ -15,6 +16,6 @@ public class App
     {
         System.out.println( "Hello World!" );
         new Gson();
-       new Serializer();
+        OkHttpClient client = new OkHttpClient();
     }
 }

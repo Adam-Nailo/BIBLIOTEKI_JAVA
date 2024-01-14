@@ -19,6 +19,9 @@ dependencies {
     annotationProcessor ("org.projectlombok:lombok:1.18.30")
     testCompileOnly ("org.projectlombok:lombok:1.18.30")
     testAnnotationProcessor ("org.projectlombok:lombok:1.18.30")
+
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+
 }
 
 tasks.test {

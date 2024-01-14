@@ -15,6 +15,6 @@ public class App
     {
         System.out.println( "Hello World!" );
         new Gson();
-//        new Serializer();
+       new Serializer();
     }
 }

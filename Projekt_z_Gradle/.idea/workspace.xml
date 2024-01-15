@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0bbe236-bf0d-4524-9347-287918146644" name="Changes" comment="OkHttp">
+    <list default="true" id="a0bbe236-bf0d-4524-9347-287918146644" name="Changes" comment="Pobranie Json'a z API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javaapp/src/main/java/org/projekt_z_gradle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaapp/src/main/java/org/projekt_z_gradle/Main.java" afterDir="false" />
     </list>
@@ -250,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705265037897</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Pobranie Json'a z API">
+      <option name="closed" value="true" />
+      <created>1705271882839</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1705271882839</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -268,6 +276,7 @@
     <MESSAGE value="Zagnieżdżone Jsony" />
     <MESSAGE value="Tablice w Json'ach" />
     <MESSAGE value="OkHttp" />
-    <option name="LAST_COMMIT_MESSAGE" value="OkHttp" />
+    <MESSAGE value="Pobranie Json'a z API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pobranie Json'a z API" />
   </component>
 </project>

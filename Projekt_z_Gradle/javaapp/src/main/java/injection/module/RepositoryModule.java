@@ -1,6 +1,9 @@
-package injection;
+package injection.module;
 
 import com.google.inject.AbstractModule;
+import com.google.inject.Singleton;
+import injection.Repository;
+
 
 /**
  * Created by Adam Seweryn
@@ -8,6 +11,6 @@ import com.google.inject.AbstractModule;
 public class RepositoryModule extends AbstractModule {
     @Override
     protected void configure() {
-        bind(Repository.class).to(Database.class);
+        bind(Repository.class).toProvider(DatabaseProvider.class).in(Singleton.class);
     }
 }

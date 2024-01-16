@@ -3,7 +3,7 @@ package org.projekt_z_gradle;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 import injection.ListFiller;
-import injection.RepositoryModule;
+import injection.module.RepositoryModule;
 import lombok.extern.java.Log;
 
 /**

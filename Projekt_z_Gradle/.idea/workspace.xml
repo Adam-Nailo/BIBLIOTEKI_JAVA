@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0bbe236-bf0d-4524-9347-287918146644" name="Changes" comment="Biblioteka Guice">
-      <change afterPath="$PROJECT_DIR$/javaapp/src/main/java/injection/RaportPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaapp/src/main/java/injection/RepositoryModule.java" afterDir="false" />
+    <list default="true" id="a0bbe236-bf0d-4524-9347-287918146644" name="Changes" comment="Konfiguracja wstrzykiwania">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaapp/src/main/java/injection/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaapp/src/main/java/injection/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaapp/src/main/java/injection/ListFiller.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaapp/src/main/java/injection/ListFiller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaapp/src/main/java/org/projekt_z_gradle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaapp/src/main/java/org/projekt_z_gradle/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projekt_z_Maven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projekt_z_Maven/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,7 +293,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705413740887</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Konfiguracja wstrzykiwania">
+      <option name="closed" value="true" />
+      <created>1705418087126</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1705418087126</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -320,6 +322,7 @@
     <MESSAGE value="Pobranie Json'a z API" />
     <MESSAGE value="Wysylanie danych OkHttp" />
     <MESSAGE value="Biblioteka Guice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Biblioteka Guice" />
+    <MESSAGE value="Konfiguracja wstrzykiwania" />
+    <option name="LAST_COMMIT_MESSAGE" value="Konfiguracja wstrzykiwania" />
   </component>
 </project>

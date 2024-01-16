@@ -16,5 +16,10 @@ public class Main {
 
         injector.getInstance(ListFiller.class).getUsers();
 
+        ListFiller listFiller = new ListFiller();
+
+        injector.injectMembers(listFiller);
+        listFiller.getUsers();
+
     }
 }

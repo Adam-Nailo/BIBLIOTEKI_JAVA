@@ -22,6 +22,7 @@ dependencies {
 
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
 
+    implementation("com.google.inject:guice:7.0.0")
 }
 
 tasks.test {

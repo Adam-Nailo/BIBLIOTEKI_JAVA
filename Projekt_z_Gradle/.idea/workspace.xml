@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0bbe236-bf0d-4524-9347-287918146644" name="Changes" comment="Pobranie Json'a z API">
+    <list default="true" id="a0bbe236-bf0d-4524-9347-287918146644" name="Changes" comment="Wysylanie danych OkHttp">
+      <change afterPath="$PROJECT_DIR$/javaapp/src/main/java/injection/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaapp/src/main/java/injection/ListFiller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaapp/src/main/java/injection/Repository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaapp/src/main/java/org/projekt_z_gradle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaapp/src/main/java/org/projekt_z_gradle/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaapp/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/javaapp/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +29,17 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Projekt_z_Gradle" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Projekt_z_Gradle" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -37,6 +50,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -75,6 +89,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="injection" />
       <recent name="org.projekt_z_gradle" />
     </key>
   </component>
@@ -258,7 +273,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705271882839</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Wysylanie danych OkHttp">
+      <option name="closed" value="true" />
+      <created>1705308297944</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1705308297944</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Wysylanie danych OkHttp">
+      <option name="closed" value="true" />
+      <created>1705308375085</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1705308375085</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -277,6 +308,7 @@
     <MESSAGE value="Tablice w Json'ach" />
     <MESSAGE value="OkHttp" />
     <MESSAGE value="Pobranie Json'a z API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pobranie Json'a z API" />
+    <MESSAGE value="Wysylanie danych OkHttp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wysylanie danych OkHttp" />
   </component>
 </project>

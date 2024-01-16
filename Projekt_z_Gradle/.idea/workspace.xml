@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0bbe236-bf0d-4524-9347-287918146644" name="Changes" comment="Wysylanie danych OkHttp">
-      <change afterPath="$PROJECT_DIR$/javaapp/src/main/java/injection/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaapp/src/main/java/injection/ListFiller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaapp/src/main/java/injection/Repository.java" afterDir="false" />
+    <list default="true" id="a0bbe236-bf0d-4524-9347-287918146644" name="Changes" comment="Biblioteka Guice">
+      <change afterPath="$PROJECT_DIR$/javaapp/src/main/java/injection/RaportPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaapp/src/main/java/injection/RepositoryModule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaapp/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/javaapp/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaapp/src/main/java/injection/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaapp/src/main/java/injection/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaapp/src/main/java/injection/ListFiller.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaapp/src/main/java/injection/ListFiller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaapp/src/main/java/org/projekt_z_gradle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaapp/src/main/java/org/projekt_z_gradle/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt_z_Maven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projekt_z_Maven/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +51,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -289,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705308375085</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Biblioteka Guice">
+      <option name="closed" value="true" />
+      <created>1705413740887</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1705413740887</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -309,6 +319,7 @@
     <MESSAGE value="OkHttp" />
     <MESSAGE value="Pobranie Json'a z API" />
     <MESSAGE value="Wysylanie danych OkHttp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wysylanie danych OkHttp" />
+    <MESSAGE value="Biblioteka Guice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Biblioteka Guice" />
   </component>
 </project>

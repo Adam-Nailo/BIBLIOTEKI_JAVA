@@ -1,7 +1,10 @@
 package org.projekt_z_gradle;
 
+import com.google.inject.Guice;
+import com.google.inject.Injector;
+import injection.ListFiller;
+import injection.RepositoryModule;
 import lombok.extern.java.Log;
-import okhttp3.*;
 
 /**
  * Created by Adam Seweryn
@@ -9,23 +12,9 @@ import okhttp3.*;
 @Log
 public class Main {
     public static void main(String[] args) throws Exception {
-        OkHttpClient client = new OkHttpClient();
+        Injector injector = Guice.createInjector(new RepositoryModule());
 
-        RequestBody body = new FormBody.Builder()
-                .add("id", "1")
-                .add("title", "foo")
-                .add("body", "bar")
-                .add("userId", "1")
-                .build();
+        injector.getInstance(ListFiller.class).getUsers();
 
-        Request request = new Request.Builder()
-                .url("https://jsonplaceholder.typicode.com/posts/1")
-                .headers(new Headers.Builder().add("Content-type", "application/json; charset=UTF-8").build())
-                .method("PUT", body)
-                .build();
-
-        Response response =client.newCall(request).execute();
-        log.info(response.body().string());
-        log.info("koniec bloku");
     }
 }

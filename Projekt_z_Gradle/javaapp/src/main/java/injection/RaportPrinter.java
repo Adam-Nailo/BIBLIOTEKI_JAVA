@@ -1,15 +1,15 @@
 package injection;
 
-import com.google.inject.Inject;
+import jakarta.inject.Inject;
 
 /**
  * Created by Adam Seweryn
  */
-public class ListFiller {
+public class RaportPrinter {
     @Inject
     private Repository repository;
 
-    public void getUsers() {
+    public void getUsers(){
         repository.getUsers();
     }
 }

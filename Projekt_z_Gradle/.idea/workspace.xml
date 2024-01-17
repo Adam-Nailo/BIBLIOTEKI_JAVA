@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0bbe236-bf0d-4524-9347-287918146644" name="Changes" comment="Konfiguracja wstrzykiwania 2 metody">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaapp/src/main/java/injection/module/DatabaseProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaapp/src/main/java/injection/module/RepositoryModule.java" afterDir="false" />
+    <list default="true" id="a0bbe236-bf0d-4524-9347-287918146644" name="Changes" comment="Wstrzykiwanie - Singleton">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaapp/src/main/java/injection/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaapp/src/main/java/injection/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaapp/src/main/java/injection/RepositoryModule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaapp/src/main/java/org/projekt_z_gradle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaapp/src/main/java/org/projekt_z_gradle/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaapp/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/javaapp/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -316,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705431459222</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Wstrzykiwanie - Singleton">
+      <option name="closed" value="true" />
+      <created>1705441016482</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1705441016482</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -350,6 +353,7 @@
     <MESSAGE value="Biblioteka Guice" />
     <MESSAGE value="Konfiguracja wstrzykiwania" />
     <MESSAGE value="Konfiguracja wstrzykiwania 2 metody" />
-    <option name="LAST_COMMIT_MESSAGE" value="Konfiguracja wstrzykiwania 2 metody" />
+    <MESSAGE value="Wstrzykiwanie - Singleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wstrzykiwanie - Singleton" />
   </component>
 </project>
